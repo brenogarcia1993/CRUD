@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(45, 211, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    width: -webkit-fill-available;  /* Don't work in Firefox!!! */
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+.clear {
+    background: transparent;
+    border: none;
+}
+
+.solid {
+    background: white;
+    border: none;
+    color: rgb(45, 211, 111);
+}
+
+.outline {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
