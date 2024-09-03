@@ -10,6 +10,8 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <script src="main.js"></script>
+
         <title>Controle de Gastos</title>
     </head>
 
@@ -17,26 +19,26 @@
         <form>
             <div>
                 <div><label>Email</label></div>
-                <input type="email" name="email" placeholder="Digite seu e-mail"/>
+                <input type="email" name="email" id="email" onchange="validateFields()" placeholder="Digite seu e-mail"/>
             </div>
             <div>
                 <div><label>Senha</label></div>
                 <input type="password" name="password" placeholder="Digite sua senha"/>
             </div>
             <div>
-                <button type="button">Recuperar senha</button>
+                <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
             </div>
             <div>
-                <button type="button">Entrar</button>
+                <button type="button" class="solid" disabled="true">Entrar</button>
             </div>
             <div>
-                <button type="button">Registrar</button>
+                <button type="button" class="outline">Registrar</button>
             </div>
         </form>
 
 
     </body>
 
-
+    
 
 </html>

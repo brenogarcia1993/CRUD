@@ -23,6 +23,7 @@ button:active {
 .clear {
     background: transparent;
     border: none;
+    color: white;
 }
 
 .solid {
